@@ -1,0 +1,23 @@
+.btn {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207px;
+  background-color: $color-orange;
+  color: $color-black;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+// .btn-white {
+//   background-color: $color-white;
+// }
+
+// .btn-black {
+//   background-color: $color-black;
+// }

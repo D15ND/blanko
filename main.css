@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 328px;
+  margin-left: 80px;
+}
+.header__contacts .contacts__mail {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav .nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207px;
+  background-color: #FF7143;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header {
+  background-color: #000000;
+}
+.header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.template {
+  background-color: #FF7143;
+}/*# sourceMappingURL=main.css.map */

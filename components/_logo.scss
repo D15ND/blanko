@@ -1,0 +1,14 @@
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 328px;
+  margin-left: 80px;
+  .contacts__mail {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: $color-white;
+  }
+}
