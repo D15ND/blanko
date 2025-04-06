@@ -1,26 +1,35 @@
 .template {
   background-color: $color-orange;
+
   .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
   }
+
   .template__welcom {
     width: 632px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 237px
   }
+
   .template__title {
     font-size: 72px;
     font-weight: 700;
     margin-bottom: 27px;
   }
+
   .template__description {
     font-size: 18px;
     width: 500px;
     text-align: center;
     line-height: 27px;
     margin-bottom: 22px;
+  }
+
+  .template__img {
+    margin-top: -80px;
   }
 }

@@ -12,8 +12,7 @@
 .header__contacts {
   display: flex;
   justify-content: space-between;
-  width: 328px;
-  margin-left: 80px;
+  width: 310px;
 }
 .header__contacts .contacts__mail {
   display: flex;
@@ -28,6 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 350px;
 }
 .header__nav .nav__link {
   text-decoration: none;
@@ -40,7 +40,7 @@
 
 .btn {
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.3s ease-in;
 }
 .btn:hover {
@@ -74,6 +74,7 @@
 
 .header {
   background-color: #000000;
+  position: relative;
 }
 .header .wrapper {
   display: flex;
@@ -87,13 +88,13 @@
 .template .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .template .template__welcom {
   width: 632px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 237px;
 }
 .template .template__title {
   font-size: 72px;
@@ -106,4 +107,32 @@
   text-align: center;
   line-height: 27px;
   margin-bottom: 22px;
+}
+.template .template__img {
+  margin-top: -80px;
+}
+
+.preview {
+  margin: 80px 0;
+}
+.preview .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.preview .preview__block {
+  display: flex;
+  align-items: center;
+  width: 416px;
+}
+.preview .preview__info {
+  margin-left: 24px;
+}
+.preview .preview__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.preview .preview__description {
+  line-height: 24px;
+  width: 260px;
 }/*# sourceMappingURL=main.css.map */
