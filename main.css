@@ -32,11 +32,19 @@
 .header__nav .nav__link {
   text-decoration: none;
   color: #fff;
+  transition: 0.3s ease-in;
+}
+.header__nav .nav__link:hover {
+  color: #FFD700;
 }
 
 .btn {
   text-decoration: none;
   border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  color: #FFD700;
 }
 
 .btn-orange {
@@ -50,6 +58,20 @@
   font-weight: 700;
 }
 
+.btn-white {
+  background-color: #fff;
+  color: #000000;
+  padding: 20px 32px;
+  font-size: 18px;
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 32px;
+  font-size: 18px;
+}
+
 .header {
   background-color: #000000;
 }
@@ -61,4 +83,27 @@
 
 .template {
   background-color: #FF7143;
+}
+.template .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.template .template__welcom {
+  width: 632px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.template .template__title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.template .template__description {
+  font-size: 18px;
+  width: 500px;
+  text-align: center;
+  line-height: 27px;
+  margin-bottom: 22px;
 }/*# sourceMappingURL=main.css.map */

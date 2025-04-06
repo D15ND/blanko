@@ -1,6 +1,10 @@
 .btn {
   text-decoration: none;
   border-radius: 10px;
+  transition: 0.3s ease-in;
+  &:hover {
+    color: $color-gold;
+  }
 }
 
 .btn-orange {
@@ -14,10 +18,16 @@
   font-weight: 700;
 }
 
-// .btn-white {
-//   background-color: $color-white;
-// }
+.btn-white {
+  background-color: $color-white;
+  color: $color-black;
+  padding: 20px 32px;
+  font-size: 18px;
+}
 
-// .btn-black {
-//   background-color: $color-black;
-// }
+.btn-black {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 20px 32px;
+  font-size: 18px;
+}
