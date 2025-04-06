@@ -1,0 +1,36 @@
+.community {
+  background-color: $color-black;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.community__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  margin: 100px 0 120px 0;
+}
+
+.community__subtitle {
+  color: $color-white;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.community__owner {
+  color: $color-white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.community__status {
+  color: $color-white;
+  margin-bottom: 44px;
+}
