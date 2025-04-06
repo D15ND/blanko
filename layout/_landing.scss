@@ -1,0 +1,46 @@
+.landing {
+  margin: 100px 0;
+}
+
+.landing__subtitle {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.landing__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.landing__card {
+  width: 416px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.landing__description {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card__fone {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 414px;
+  background-color: $color-black;
+}
+
+.landing__img {
+  width: 334px;
+  height: 334px;
+  margin-top: 40px;
+}
+
+.landing__description {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 24px 0 24px 32px;
+}
